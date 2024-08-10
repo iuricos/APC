@@ -1,6 +1,17 @@
-def refrao(n):
-    print(f"{n} patinhos")
-def estrofe(n):
-    p = n-1
-    refrao(n)
-    print(f"Foram passear\nAlém das montanhas\nPara brincar\nA mamãe gritou\nQuá, quá, quá, quá!\nMas só {p} patinhos\nVoltaram de lá\nAgora só falta aprender a fazer loop!")
+def fibonacci(n):
+    a1 = 1
+    a2 = 0
+    a  = 1
+
+    if n == 1:
+        print("0")
+    elif n == 2:
+        print(f'0 ', end='')
+    else:
+        print(f'0 1 ', end='')
+        for i in range(n-2):
+            a = a1 + a2
+            a1, a2 = a, a1
+            print(f'{a}', end=" ")
+
+    
