@@ -82,14 +82,14 @@ def has_duplicates(t):
         return True:
     seen.append(i)
     return False
-'''
+
 import random
 
 def paradoxoparabens(n):
 
-    alist[]
+    alist = []
     for _ in range(n):
         alist.append(random.randint(1, 365))
     
     return alist
-
+'''
