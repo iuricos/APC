@@ -9,7 +9,6 @@ maior = -1000000
 linhas_res = []
 res = []
 
-
 for i in range(N):
     inputs = input().split()
     A.append(inputs)
